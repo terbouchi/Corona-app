@@ -28,3 +28,14 @@
 
 .nav__logo {
   margin-left: 30px; }
+
+.infoMedicale {
+  background: #F4CF1B; }
+  .infoMedicale__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large; }
+  .infoMedicale__parag {
+    text-align: center;
+    color: #1078AD;
+    font-size: unset; }
