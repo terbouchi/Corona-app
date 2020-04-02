@@ -1,1 +1,30 @@
-body{background-color:black}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'cairo'; }
+
+.nav {
+  background-image: url(/dist/img/png/Merged-barxd.png);
+  height: 80px;
+  width: 100%; }
+  .nav__titles {
+    float: right;
+    margin-right: 60px;
+    margin-top: -6rem; }
+    .nav__titles__sp {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px; }
+      .nav__titles__sp__t {
+        color: #2B2B2C;
+        font-size: 17px;
+        padding: 7px 13px;
+        font-weight: bold; }
+        .nav__titles__sp__t--solid {
+          color: #1078AD; }
+
+.nav__logo {
+  margin-left: 30px; }
