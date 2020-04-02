@@ -1,0 +1,38 @@
+@import "variables";
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'cairo';
+}
+
+.nav {
+    background-image: url(/dist/img/png/Merged-barxd.png);
+    height: 80px;
+    width: 100%;
+    &__titles {
+        float: right;
+        margin-right: 60px;
+        margin-top: -6rem;
+        &__sp {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+            &__t {
+                color: $color-dark;
+                font-size: 17px;
+                padding: 7px 13px;
+                font-weight: bold;
+                &--solid {
+                    color: $color-bleu;
+                }
+            }
+        }
+    }
+}
+
+.nav__logo {
+    margin-left: 30px;
+}
