@@ -39,3 +39,34 @@
     text-align: center;
     color: #1078AD;
     font-size: unset; }
+
+.heroHeader {
+  display: flex;
+  justify-content: space-evenly; }
+  .heroHeader__left {
+    margin: 40px 0px 0px -50px;
+    width: 53rem; }
+  .heroHeader__right__title {
+    text-align: center;
+    font-size: 26px;
+    color: #1078AD;
+    margin-top: 40px; }
+  .heroHeader__right__img {
+    display: block;
+    margin: auto;
+    text-align: center; }
+  .heroHeader__right__para {
+    text-align: center;
+    color: #7F7F7F;
+    font-size: 25px;
+    font-weight: 900; }
+  .heroHeader__right__button {
+    background-color: #1078AD;
+    padding: 12px;
+    border: 2px solid #1078AD;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: larger; }

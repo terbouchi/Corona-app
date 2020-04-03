@@ -1,0 +1,38 @@
+.heroHeader {
+    display: flex;
+    justify-content: space-evenly;
+    &__left {
+        margin: 40px 0px 0px -50px;
+        width: 53rem;
+    }
+    &__right {
+        &__title {
+            text-align: center;
+            font-size: 26px;
+            color: $color-bleu;
+            margin-top: 40px;
+        }
+        &__img {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        &__para {
+            text-align: center;
+            color: $color-grey;
+            font-size: 25px;
+            font-weight: 900;
+        }
+        &__button {
+            background-color: $color-bleu;
+            padding: 12px;
+            border: 2px solid $color-bleu;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bolder;
+            color: $footer-color;
+            font-size: larger;
+        }
+    }
+}
