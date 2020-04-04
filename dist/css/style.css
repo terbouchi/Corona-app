@@ -30,7 +30,8 @@
   margin-left: 30px; }
 
 .infoMedicale {
-  background: #F4CF1B; }
+  background: #F4CF1B;
+  padding: 20px; }
   .infoMedicale__title {
     text-align: center;
     text-transform: uppercase;
@@ -42,31 +43,52 @@
 
 .heroHeader {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
   .heroHeader__left {
-    margin: 40px 0px 0px -50px;
-    width: 53rem; }
-  .heroHeader__right__title {
-    text-align: center;
-    font-size: 26px;
-    color: #1078AD;
-    margin-top: 40px; }
-  .heroHeader__right__img {
-    display: block;
-    margin: auto;
-    text-align: center; }
-  .heroHeader__right__para {
-    text-align: center;
-    color: #7F7F7F;
-    font-size: 25px;
-    font-weight: 900; }
-  .heroHeader__right__button {
-    background-color: #1078AD;
-    padding: 12px;
-    border: 2px solid #1078AD;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bolder;
-    color: #FFFFFF;
-    font-size: larger; }
+    padding-top: 52px; }
+  .heroHeader__right {
+    padding: 0em; }
+    .heroHeader__right__title {
+      text-align: center;
+      font-size: 26px;
+      color: #1078AD;
+      margin-top: 40px; }
+    .heroHeader__right__img {
+      display: block;
+      margin: auto;
+      text-align: center; }
+    .heroHeader__right__para {
+      text-align: center;
+      color: #7F7F7F;
+      font-size: 25px;
+      font-weight: 900; }
+    .heroHeader__right__button {
+      background-color: #1078AD;
+      padding: 12px;
+      border: 2px solid #1078AD;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bolder;
+      color: #FFFFFF;
+      font-size: larger;
+      margin-top: 20px; }
+
+@media (max-width: 750px) {
+  .heroHeader__left {
+    padding-top: 60px;
+    padding-left: 31px;
+    padding-right: 31px; }
+  .heroHeader__right {
+    padding-top: 0.5rem; }
+    .heroHeader__right__title {
+      text-align: center;
+      font-size: 22px;
+      color: #1078AD;
+      margin-top: 1px; }
+    .heroHeader__right__para {
+      text-align: center;
+      color: #7F7F7F;
+      font-size: 20px;
+      font-weight: 900; } }

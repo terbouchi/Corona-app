@@ -1,11 +1,12 @@
 .heroHeader {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     &__left {
-        margin: 40px 0px 0px -50px;
-        width: 53rem;
+        padding-top: 52px;
     }
     &__right {
+        padding: 0em;
         &__title {
             text-align: center;
             font-size: 26px;
@@ -33,6 +34,32 @@
             font-weight: bolder;
             color: $footer-color;
             font-size: larger;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .heroHeader {
+        &__left {
+            padding-top: 60px;
+            padding-left: 31px;
+            padding-right: 31px;
+        }
+        &__right {
+            padding-top: 0.5rem;
+            &__title {
+                text-align: center;
+                font-size: 22px;
+                color: $color-bleu;
+                margin-top: 1px;
+            }
+            &__para {
+                text-align: center;
+                color: $color-grey;
+                font-size: 20px;
+                font-weight: 900;
+            }
         }
     }
 }
