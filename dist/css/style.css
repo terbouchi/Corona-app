@@ -90,5 +90,35 @@
     .heroHeader__right__para {
       text-align: center;
       color: #7F7F7F;
-      font-size: 20px;
+      font-size: 21.5px;
       font-weight: 900; } }
+
+.symptomes__question {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 5rem;
+  color: #1078AD; }
+
+.symptomes__cat1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px; }
+  .symptomes__cat1__box {
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: bolder; }
+
+.symptomes__cat2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding-right: 5rem;
+  padding-top: 2rem; }
+  .symptomes__cat2__box {
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: bolder; }
