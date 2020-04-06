@@ -174,11 +174,6 @@
     padding-top: 1em;
     padding-bottom: 1.5em;
     font-size: xx-large; }
-  .recommondation__phr {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 2rem;
-    margin-top: -2rem; }
 
 .recommondInList {
   display: flex;
@@ -187,6 +182,10 @@
   .recommondInList__list {
     color: white;
     font-size: 30px; }
+    .recommondInList__list p {
+      color: black;
+      font-size: xx-large;
+      padding-bottom: 1rem; }
   .recommondInList__call {
     text-align: center; }
     .recommondInList__call h3 {
@@ -235,55 +234,25 @@
       color: #D0E5F0;
       padding-top: 1em;
       padding-bottom: 1.5em;
-      font-size: xx-large; }
-    .recommondation__phr {
-      text-align: center;
+      font-size: 29px; }
+  .recommondInList__list {
+    margin-top: -3rem;
+    color: white;
+    font-size: 20px;
+    padding: 3rem;
+    padding-top: 0rem; }
+    .recommondInList__list p {
+      color: black;
+      padding-bottom: 1rem;
+      font-size: 19px; }
+  .recommondInList__info {
+    margin-top: -3rem;
+    margin-bottom: 2rem; }
+    .recommondInList__info6-tit {
+      color: #F4CF1B;
       font-size: 23px;
-      margin-bottom: 2rem;
-      margin-top: -4rem;
-      padding: 3rem; }
-  .recommondInList {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; }
-    .recommondInList__list {
-      margin-top: -3rem;
-      color: white;
-      font-size: 22px;
-      padding: 6rem;
-      padding-top: 0rem; }
-    .recommondInList__call {
       text-align: center; }
-      .recommondInList__call h3 {
-        color: #f4cf1b; }
-      .recommondInList__call__phonenum {
-        background-color: #f4cf1b;
-        margin: 1em;
-        position: relative;
-        width: 20%;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 1em 2em;
-        border-radius: 1em;
-        color: #1078AD; }
-    .recommondInList__info {
-      margin-top: -5rem; }
-      .recommondInList__info--tit {
-        color: #F4CF1B;
-        font-size: 25px;
-        font-weight: 700;
-        margin-bottom: 25px;
-        text-align: center; }
-      .recommondInList__info--num {
-        background-color: #F4CF1B;
-        text-align: center;
-        color: #1078AD;
-        font-size: 29px;
-        font-weight: 700;
-        margin-bottom: 15px;
-        padding: 12px;
-        border-radius: 5px; }
-      .recommondInList__info--site {
-        font-size: 30px;
-        color: #FFFFFF;
-        border-bottom: 5px solid #F4CF1B; } }
+    .recommondInList__info--num {
+      font-size: 27px; }
+    .recommondInList__info--site {
+      font-size: 28px; } }

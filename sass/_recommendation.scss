@@ -7,12 +7,6 @@
                 padding-bottom: 1.5em;
                 font-size: xx-large;
             }
-            &__phr {
-                text-align: center;
-                font-size: 30px;
-                margin-bottom: 2rem;
-                margin-top: -2rem;
-            }
         }
         
         .recommondInList {
@@ -22,26 +16,15 @@
             &__list {
                 color: white;
                 font-size: 30px;
-            }
-            &__call {
-                text-align: center;
-                h3 {
-                    color: #f4cf1b;
-                }
-                &__phonenum {
-                    background-color: #f4cf1b;
-                    margin: 1em;
-                    position: relative;
-                    width: 20%;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    padding: 1em 2em;
-                    border-radius: 1em;
-                    color: $color-bleu;
+                p {
+                    color: black;
+                    font-size: xx-large;
+                    padding-bottom: 1rem;
                 }
             }
             &__info {
                 padding-top: 2rem;
+                margin-bottom: 2rem;
                 &--tit {
                     color: $color-yellow;
                     font-size: 30px;
@@ -81,49 +64,28 @@
                     color: $color-withgry;
                     padding-top: 1em;
                     padding-bottom: 1.5em;
-                    font-size: xx-large;
-                }
-                &__phr {
-                    text-align: center;
-                    font-size: 23px;
-                    margin-bottom: 2rem;
-                    margin-top: -4rem;
-                    padding: 3rem;
+                    font-size: 29px;
                 }
             }
             .recommondInList {
-                display: flex;
-                justify-content: space-around;
-                flex-wrap: wrap;
                 &__list {
                     margin-top: -3rem;
                     color: white;
-                    font-size: 22px;
-                    padding: 6rem;
+                    font-size: 20px;
+                    padding: 3rem;
                     padding-top: 0rem;
-                }
-                &__call {
-                    text-align: center;
-                    h3 {
-                        color: #f4cf1b;
-                    }
-                    &__phonenum {
-                        background-color: #f4cf1b;
-                        margin: 1em;
-                        position: relative;
-                        width: 20%;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        padding: 1em 2em;
-                        border-radius: 1em;
-                        color: $color-bleu;
+                    p {
+                        color: black;
+                        padding-bottom: 1rem;
+                        font-size: 19px;
                     }
                 }
                 &__info {
-                    margin-top: -5rem;
+                    margin-top: -3rem;
+                    margin-bottom: 2rem;
                     &--tit {
                         color: $color-yellow;
-                        font-size: 25px;
+                        font-size: 21px;
                         font-weight: 700;
                         margin-bottom: 25px;
                         text-align: center;
