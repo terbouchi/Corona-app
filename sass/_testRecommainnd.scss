@@ -1,0 +1,23 @@
+.content {
+    text-align: center;
+    padding: 1rem;
+    background-color: $color-ciel;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    &__test {
+        text-align: center;
+        font-size: 32px;
+        color: $color-bleu;
+    }
+    &__btn {
+        background-color: $color-bleu;
+        padding: 2px;
+        border: 2px solid $color-bleu;
+        border-radius: 10px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-left: 11rem;
+        font-size: 2rem;
+        padding-right: 11rem;
+    }
+}
