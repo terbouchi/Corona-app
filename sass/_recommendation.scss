@@ -1,110 +1,127 @@
-        .recommondation {
-            background-color: $color-bleu;
-            h2 {
-                text-align: center;
-                color: $color-withgry;
-                padding-top: 1em;
-                padding-bottom: 1.5em;
-                font-size: xx-large;
-            }
-        }
-        
-        .recommondInList {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            &__list {
-                color: white;
-                font-size: 30px;
-                p {
-                    color: black;
-                    font-size: xx-large;
-                    padding-bottom: 1rem;
-                }
-            }
-            &__info {
-                padding-top: 2rem;
-                margin-bottom: 2rem;
-                &--tit {
-                    color: $color-yellow;
-                    font-size: 30px;
-                    font-weight: 700;
-                    margin-bottom: 25px;
-                    text-align: center;
-                }
-                &--num {
-                    background-color: $color-yellow;
-                    text-align: center;
-                    color: $color-bleu;
-                    font-size: 29px;
-                    font-weight: 700;
-                    margin-bottom: 15px;
-                    padding: 12px;
-                    border-radius: 5px;
-                }
-                &--site {
-                    font-size: 30px;
-                    color: #FFFFFF;
-                    border-bottom: 5px solid $color-yellow;
-                }
-            }
-        }
-        
-        @media (max-width: 1024px) {
-            .recommondation {
-                text-align: center;
-            }
-        }
-        
-        @media (max-width: 720px) {
-            .recommondation {
-                background-color: $color-bleu;
-                h2 {
-                    text-align: center;
-                    color: $color-withgry;
-                    padding-top: 1em;
-                    padding-bottom: 1.5em;
-                    font-size: 29px;
-                }
-            }
-            .recommondInList {
-                &__list {
-                    margin-top: -3rem;
-                    color: white;
-                    font-size: 20px;
-                    padding: 3rem;
-                    padding-top: 0rem;
-                    p {
-                        color: black;
-                        padding-bottom: 1rem;
-                        font-size: 19px;
-                    }
-                }
-                &__info {
-                    margin-top: -3rem;
-                    margin-bottom: 2rem;
-                    &--tit {
-                        color: $color-yellow;
-                        font-size: 21px;
-                        font-weight: 700;
-                        margin-bottom: 25px;
+                    .recommondation {
+                    background-color: $color-bleu;
+                    padding-bottom: 3rem;
+                    h2 {
                         text-align: center;
+                        color: $color-withgry;
+                        padding-top: 1em;
+                        padding-bottom: 1.5em;
+                        font-size: xx-large;
                     }
-                    &--num {
-                        background-color: $color-yellow;
-                        text-align: center;
-                        color: $color-bleu;
-                        font-size: 29px;
-                        font-weight: 700;
-                        margin-bottom: 15px;
-                        padding: 12px;
-                        border-radius: 5px;
-                    }
-                    &--site {
+                }
+                
+                .recommondInList {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    &__list {
+                        color: white;
                         font-size: 30px;
-                        color: #FFFFFF;
-                        border-bottom: 5px solid $color-yellow;
+                        p {
+                            color: black;
+                            font-size: xx-large;
+                            padding-bottom: 1rem;
+                        }
+                    }
+                    &__info {
+                        padding-top: 2rem;
+                        margin-bottom: 2rem;
+                        &--tit {
+                            color: $color-yellow;
+                            font-size: 30px;
+                            font-weight: 700;
+                            margin-bottom: 25px;
+                            text-align: center;
+                        }
+                        &--num {
+                            background-color: $color-yellow;
+                            text-align: center;
+                            color: $color-bleu;
+                            font-size: 29px;
+                            font-weight: 700;
+                            margin-bottom: 15px;
+                            padding: 12px;
+                            border-radius: 5px;
+                        }
+                        &--site {
+                            font-size: 30px;
+                            color: #FFFFFF;
+                            border-bottom: 5px solid $color-yellow;
+                        }
                     }
                 }
-            }
-        }
+                
+                @media (max-width: 1024px) {
+                    .recommondation {
+                        text-align: center;
+                        margin-bottom: -2rem;
+                    }
+                    .recommondInList {
+                        &__list {
+                            color: white;
+                            font-size: 30px;
+                            padding: 1rem;
+                            margin-top: -2rem;
+                            p {
+                                color: black;
+                                font-size: xx-large;
+                                padding-bottom: 1rem;
+                                margin-bottom: 0rem;
+                            }
+                        }
+                    }
+                }
+                
+                @media (max-width: 720px) {
+                    .recommondation {
+                        background-color: $color-bleu;
+                        margin-bottom: -2rem;
+                        h2 {
+                            text-align: center;
+                            color: $color-withgry;
+                            padding-top: 1em;
+                            padding-bottom: 1.5em;
+                            font-size: 29px;
+                        }
+                        .recommondInList {
+                            &__list {
+                                margin-top: -3rem;
+                                color: white;
+                                font-size: 20px;
+                                padding: 3rem;
+                                padding-top: 1rem;
+                                p {
+                                    color: black;
+                                    padding-bottom: 1rem;
+                                    font-size: 19px;
+                                    margin-bottom: -1rem;
+                                }
+                            }
+                            &__info {
+                                margin-top: -3rem;
+                                margin-bottom: 2rem;
+                                &--tit {
+                                    color: $color-yellow;
+                                    font-size: 21px;
+                                    font-weight: 700;
+                                    margin-bottom: 25px;
+                                    text-align: center;
+                                }
+                                &--num {
+                                    background-color: $color-yellow;
+                                    text-align: center;
+                                    color: $color-bleu;
+                                    font-size: 29px;
+                                    font-weight: 700;
+                                    margin-bottom: 15px;
+                                    padding: 12px;
+                                    border-radius: 5px;
+                                }
+                                &--site {
+                                    font-size: 30px;
+                                    color: #FFFFFF;
+                                    border-bottom: 5px solid $color-yellow;
+                                }
+                            }
+                        }
+                    }
