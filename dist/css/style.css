@@ -8,6 +8,8 @@
   font-weight: 600; }
 
 .nav {
+  position: fixed;
+  background-color: white;
   background-image: url(/dist/img/png/Merged-barxd.png);
   height: 80px;
   width: 100%; }
@@ -32,7 +34,8 @@
 
 .infoMedicale {
   background: #F4CF1B;
-  padding: 20px; }
+  padding: 20px;
+  padding-top: 6rem; }
   .infoMedicale__title {
     text-align: center;
     text-transform: uppercase;
