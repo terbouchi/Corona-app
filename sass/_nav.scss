@@ -12,7 +12,7 @@
 .nav {
     position: fixed;
     background-color: white;
-    background-image: url(/dist/img/png/Merged-barxd.png);
+    background-image: url(/Merged-barxd.png);
     height: 80px;
     width: 100%;
     &__titles {
@@ -28,8 +28,10 @@
                 font-size: 17px;
                 padding: 7px 13px;
                 font-weight: bold;
+                cursor: pointer;
                 &--solid {
                     color: $color-bleu;
+                    cursor: pointer;
                 }
             }
         }
@@ -38,4 +40,5 @@
 
 .nav__logo {
     margin-left: 30px;
+    cursor: pointer;
 }

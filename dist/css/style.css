@@ -10,7 +10,7 @@
 .nav {
   position: fixed;
   background-color: white;
-  background-image: url(/dist/img/png/Merged-barxd.png);
+  background-image: url(/Merged-barxd.png);
   height: 80px;
   width: 100%; }
   .nav__titles {
@@ -25,12 +25,15 @@
         color: #2B2B2C;
         font-size: 17px;
         padding: 7px 13px;
-        font-weight: bold; }
+        font-weight: bold;
+        cursor: pointer; }
         .nav__titles__sp__t--solid {
-          color: #1078AD; }
+          color: #1078AD;
+          cursor: pointer; }
 
 .nav__logo {
-  margin-left: 30px; }
+  margin-left: 30px;
+  cursor: pointer; }
 
 .infoMedicale {
   background: #F4CF1B;
