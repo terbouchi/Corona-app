@@ -1,0 +1,47 @@
+            .transemet {
+                &__question {
+                    text-align: center;
+                    font-size: 35px;
+                    padding-top: 5rem;
+                    color: $color-bleu;
+                    font-weight: bolder;
+                }
+                &__cat1 {
+                    display: flex;
+                    justify-content: space-evenly;
+                    &__box {
+                        font-size: 32px;
+                        justify-content: center;
+                        text-align: center;
+                        padding-top: 5rem;
+                        font-weight: bolder;
+                        &__title {
+                            color: $color-bleudark;
+                        }
+                    }
+                }
+            }
+            
+            @media (max-width: 650px) {
+                .transemet {
+                    &__question {
+                        text-align: center;
+                        font-size: 28px;
+                        padding-top: 5rem;
+                        color: $color-bleu;
+                        padding: 25px;
+                    }
+                    &__cat1 {
+                        display: flex;
+                        justify-content: space-evenly;
+                        margin-left: -6px;
+                        &__box {
+                            font-size: 23px;
+                            justify-content: center;
+                            text-align: center;
+                            padding-top: 5rem;
+                            font-weight: bolder;
+                        }
+                    }
+                }
+            }

@@ -4,6 +4,9 @@
         font-size: 35px;
         padding-top: 5rem;
         color: $color-bleu;
+        &--conseil {
+            font-weight: bolder;
+        }
     }
     &__cat1 {
         display: flex;
