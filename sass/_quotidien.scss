@@ -1,0 +1,56 @@
+.proteger {
+    h2 {
+        text-align: center;
+        color: $color-bleu;
+        padding-top: 0.7em;
+        font-size: 2.3rem;
+        font-weight: bolder;
+    }
+    &__main {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        text-align: center;
+        margin-top: 1em;
+        div {
+            padding: 1em;
+            img {
+                padding: 2em;
+            }
+            p {
+                color: #1A519E;
+                text-align: center;
+                left: 50%;
+                position: relative;
+                transform: translate(-50%);
+                font-weight: bolder;
+                font-size: 1.5rem;
+            }
+        }
+        .last-calque {
+            grid-column: span 3;
+        }
+    }
+}
+
+@media (max-width: 946px) {
+    .proteger {
+        h2 {
+            text-align: center;
+            color: $color-bleu;
+            padding-top: 0.7em;
+            font-size: 1.42rem;
+        }
+        &__main {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            div {
+                p {
+                    font-size: 1.13rem;
+                }
+            }
+            .last-calque {
+                grid-column: span 2;
+            }
+        }
+    }
+}
