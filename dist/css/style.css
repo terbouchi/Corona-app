@@ -502,3 +502,58 @@
       font-size: 1.13rem; }
     .proteger__main .last-calque {
       grid-column: span 2; } }
+
+.infos {
+  background-color: #D0E5F0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .infos__left {
+    text-align: center; }
+    .infos__left h2 {
+      font-weight: inherit;
+      font-size: 2.35rem;
+      padding-top: 1rem;
+      color: #1078AD; }
+    .infos__left p {
+      font-size: 25px;
+      font-weight: 800;
+      color: #1A519E; }
+  .infos__btn {
+    background-color: #1078AD;
+    padding: 9px;
+    border: 7px solid #1078AD;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: larger;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-right: 6rem;
+    padding-left: 6rem; }
+    .infos__btn--right {
+      background-color: #1078AD;
+      padding: 9px;
+      border: 7px solid #1078AD;
+      border-radius: 8px;
+      font-weight: bolder;
+      color: #FFFFFF;
+      font-size: larger;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      padding-right: 8.8rem;
+      padding-left: 8.8rem; }
+
+@media (max-width: 813px) {
+  .infos__btn--right {
+    background-color: #1078AD;
+    padding: 9px;
+    border: 7px solid #1078AD;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: larger;
+    margin-top: -2.5rem;
+    margin-bottom: 3rem;
+    padding-right: 8.8rem;
+    padding-left: 8.8rem; } }
