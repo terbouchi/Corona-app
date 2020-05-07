@@ -20,6 +20,11 @@
         font-size: 2rem;
         padding-right: 11rem;
         cursor: pointer;
+        &:hover {
+            color: $color-bleu;
+            background-color: whitesmoke;
+            transition: all .3s ease;
+        }
     }
 }
 
