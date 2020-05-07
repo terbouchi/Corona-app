@@ -39,13 +39,51 @@
             border: 7px solid $color-bleu;
             border-radius: 8px;
             font-weight: bolder;
-            color: #FFFFFF;
-            font-size: larger;
             margin-top: 4rem;
             margin-bottom: 4rem;
             padding-right: 8.8rem;
             padding-left: 8.8rem;
             cursor: pointer;
+            div {
+                color: white;
+            }
+            .overlay {
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgba(0, 0, 0, 0.7);
+                transition: opacity 500ms;
+                visibility: hidden;
+                opacity: 0;
+            }
+            .overlay:target {
+                visibility: visible;
+                opacity: 1;
+            }
+            .popup {
+                padding: 20px;
+                border-radius: 5px;
+                width: 30%;
+                position: relative;
+                img {
+                    padding: 0rem 3rem 3rem 38rem;
+                }
+            }
+            .popup .close {
+                position: absolute;
+                top: 20px;
+                right: 30px;
+                transition: all 200ms;
+                font-size: 30px;
+                font-weight: bold;
+                text-decoration: none;
+                color: white;
+            }
+            .popup .close:hover {
+                color: black;
+            }
         }
     }
 }

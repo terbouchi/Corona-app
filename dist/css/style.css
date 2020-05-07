@@ -556,13 +556,44 @@
       border: 7px solid #1078AD;
       border-radius: 8px;
       font-weight: bolder;
-      color: #FFFFFF;
-      font-size: larger;
       margin-top: 4rem;
       margin-bottom: 4rem;
       padding-right: 8.8rem;
       padding-left: 8.8rem;
       cursor: pointer; }
+      .infos__btn--right div {
+        color: white; }
+      .infos__btn--right .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0; }
+      .infos__btn--right .overlay:target {
+        visibility: visible;
+        opacity: 1; }
+      .infos__btn--right .popup {
+        padding: 20px;
+        border-radius: 5px;
+        width: 30%;
+        position: relative; }
+        .infos__btn--right .popup img {
+          padding: 0rem 3rem 3rem 38rem; }
+      .infos__btn--right .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white; }
+      .infos__btn--right .popup .close:hover {
+        color: black; }
 
 @media (max-width: 813px) {
   .infos__btn--right {
