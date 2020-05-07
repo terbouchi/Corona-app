@@ -32,6 +32,10 @@
                 &--solid {
                     color: $color-bleu;
                     cursor: pointer;
+                    &--soli {
+                        cursor: pointer;
+                        color: black;
+                    }
                 }
             }
         }
@@ -40,5 +44,4 @@
 
 .nav__logo {
     margin-left: 30px;
-    cursor: pointer;
 }
