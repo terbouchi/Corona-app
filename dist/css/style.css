@@ -653,12 +653,12 @@
     transition: all .3s ease; }
 
 .stepper {
-  padding: 10rem 10rem 20px;
+  padding: 10rem 3rem 20px;
   display: flex;
   text-align: center;
   justify-content: space-evenly; }
   .stepper h1 {
-    font-size: 20px;
+    font-size: 14px;
     color: #1078AD;
     position: relative;
     display: flex;
