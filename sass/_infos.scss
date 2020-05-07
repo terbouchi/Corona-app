@@ -30,6 +30,9 @@
         padding-right: 6rem;
         padding-left: 6rem;
         cursor: pointer;
+        a {
+            color: white;
+        }
         &--right {
             background-color: $color-bleu;
             padding: 9px;
