@@ -1,0 +1,33 @@
+body {
+    display: block;
+    ;
+}
+
+.img404 {
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    ;
+    &__retourBtn {
+        background-color: $color-bleu;
+        padding: 2px;
+        border: 2px solid $color-bleu;
+        border-radius: 10px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-left: 11rem;
+        font-size: 2rem;
+        padding-right: 11rem;
+        cursor: pointer;
+        &:hover {
+            color: $color-bleu;
+            background-color: whitesmoke;
+            transition: all .3s ease;
+        }
+    }
+}

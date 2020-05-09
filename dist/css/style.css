@@ -863,3 +863,30 @@
     opacity: 1; }
   100% {
     transform: translateX(0); } }
+
+body {
+  display: block; }
+
+.img404 {
+  text-align: center;
+  padding-top: 7rem; }
+
+.btn {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .btn__retourBtn {
+    background-color: #1078AD;
+    padding: 2px;
+    border: 2px solid #1078AD;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 11rem;
+    font-size: 2rem;
+    padding-right: 11rem;
+    cursor: pointer; }
+    .btn__retourBtn:hover {
+      color: #1078AD;
+      background-color: whitesmoke;
+      transition: all .3s ease; }
