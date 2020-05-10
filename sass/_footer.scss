@@ -1,0 +1,192 @@
+                            .footer {
+                                padding-top: 1rem;
+                                border-bottom: 45px solid $color-bleu;
+                                margin-bottom: 1rem;
+                                background-color: white;
+                                &__logo {
+                                    text-align: center;
+                                }
+                                &__all {
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: space-around;
+                                    .footer__left {
+                                        margin-top: 3.5rem;
+                                        line-height: 5rem;
+                                        &--2 {
+                                            font-size: 29px;
+                                            text-align: center;
+                                            color: $color-bleu;
+                                            cursor: pointer;
+                                        }
+                                        &--3 {
+                                            font-size: 29px;
+                                            text-align: center;
+                                            cursor: pointer;
+                                            color: black;
+                                        }
+                                    }
+                                    .footer__bottom {
+                                        text-align: center;
+                                        color: $color-bleu;
+                                        margin-top: 1rem;
+                                        font-size: larger;
+                                        line-height: 53px;
+                                        margin-bottom: 2rem;
+                                        &--black {
+                                            color: black;
+                                        }
+                                        &--green {
+                                            color: $color-ver;
+                                            font-size: x-large;
+                                        }
+                                    }
+                                    .parg {
+                                        margin-top: 6rem;
+                                        font-size: 18px;
+                                        color: $color-grey;
+                                    }
+                                }
+                            }
+                            
+                            @media (max-width: 1200px) {
+                                .footer {
+                                    &__all {
+                                        .footer__left {
+                                            margin-top: 3.5rem;
+                                            line-height: 4.3rem;
+                                            &--2 {
+                                                font-size: 23px;
+                                                text-align: center;
+                                                color: $color-bleu;
+                                                cursor: pointer;
+                                            }
+                                            &--3 {
+                                                font-size: 23px;
+                                                text-align: center;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                        .footer__bottom {
+                                            text-align: center;
+                                            color: $color-bleu;
+                                            margin-top: 1rem;
+                                            font-size: unset;
+                                            line-height: 52px;
+                                            margin-bottom: 2rem;
+                                            &--black {
+                                                color: black;
+                                            }
+                                            &--green {
+                                                color: $color-ver;
+                                                font-size: x-large;
+                                            }
+                                        }
+                                        .parg {
+                                            margin-top: 6rem;
+                                            font-size: 18px;
+                                            color: $color-grey;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            @media (max-width: 936px) {
+                                .footer {
+                                    &__all {
+                                        .footer__left {
+                                            margin-top: 3.5rem;
+                                            line-height: 4.3rem;
+                                            &--2 {
+                                                font-size: 23px;
+                                                text-align: center;
+                                                color: $color-bleu;
+                                                cursor: pointer;
+                                            }
+                                            &--3 {
+                                                font-size: 23px;
+                                                text-align: center;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                        .footer__bottom {
+                                            text-align: center;
+                                            color: $color-bleu;
+                                            margin-top: 1rem;
+                                            font-size: unset;
+                                            line-height: 52px;
+                                            margin-bottom: 2rem;
+                                            &--black {
+                                                color: black;
+                                            }
+                                            &--green {
+                                                color: $color-ver;
+                                                font-size: x-large;
+                                            }
+                                        }
+                                        .parg {
+                                            margin-top: 0rem;
+                                            font-size: 17px;
+                                            color: #7F7F7F;
+                                            text-align: center;
+                                            margin-bottom: 3rem;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            @media (max-width: 666px) {
+                                .footer {
+                                    padding-top: 1rem;
+                                    border-bottom: 45px solid $color-bleu;
+                                    margin-bottom: 1rem;
+                                    background-color: white;
+                                    &__logo {
+                                        text-align: center;
+                                    }
+                                    &__all {
+                                        display: flex;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        justify-content: space-around;
+                                        .footer__left {
+                                            margin-top: 2.5rem;
+                                            line-height: 3.3rem;
+                                            &--2 {
+                                                font-size: 19px;
+                                                text-align: center;
+                                                color: $color-bleu;
+                                                cursor: pointer;
+                                            }
+                                            &--3 {
+                                                font-size: 19px;
+                                                text-align: center;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                        .footer__bottom {
+                                            text-align: center;
+                                            color: $color-bleu;
+                                            margin-top: 1rem;
+                                            font-size: x-small;
+                                            line-height: 37px;
+                                            margin-bottom: 2rem;
+                                            &--black {
+                                                color: black;
+                                            }
+                                            &--green {
+                                                color: $color-ver;
+                                                font-size: x-large;
+                                            }
+                                        }
+                                        .parg {
+                                            margin-top: 0rem;
+                                            font-size: 12px;
+                                            text-align: center;
+                                            margin-bottom: 3rem;
+                                            color: $color-grey;
+                                        }
+                                    }
+                                }
+                            }

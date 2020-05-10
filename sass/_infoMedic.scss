@@ -1,0 +1,15 @@
+.infoMedicale {
+    background: $color-yellow;
+    padding: 20px;
+    padding-top: 6rem;
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: large;
+    }
+    &__parag {
+        text-align: center;
+        color: $color-bleu;
+        font-size: unset;
+    }
+}
